@@ -9,7 +9,7 @@ Starting with Kubernetes 1.22 the v1beta1 Ingress API will no longer be accepted
 - Existing ingress that has already been deployed will automatically be upgraded to V1 and continue to work as expected.  
 
 ## What do you need to do?
-- Upgrade any ingress.yaml mainfest files in your repos or in CI/CD to the V1 format.  
+- Change the format of ingress.yaml mainfest files in your repos or in CI/CD to the V1 format.  
 
 ## Reference Docs
 https://kubernetes.io/docs/concepts/services-networking/ingress/

@@ -1,5 +1,4 @@
-# Ingress-V1-Example
-## Example of K8S Ingress V1 Deprecation 
+# Example of K8S Ingress V1 Deprecation 
 
 Starting with Kubernetes 1.22 the v1beta1 Ingress API will no longer be accepted.  Any Ingress YAML files with API Version v1Beta1 will need to be updated to V1.  The major change between beta and V1 is the way paths and backends are formatted.  
 

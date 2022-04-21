@@ -31,7 +31,7 @@ spec:
       - backend:
           serviceName: demo-service
           servicePort: 80
-		  
+
   tls:
   - hosts:
     - demo.something.com
